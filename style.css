@@ -42,7 +42,7 @@ ul, li {
   text-decoration: none;
   letter-spacing: 0.05em;
   display: block;
-  padding: 14px 36px;
+  padding: 10px 20px;
   border-right: 1px solid rgba(99, 99, 99, 0.486);
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
@@ -60,12 +60,12 @@ ul, li {
 }
 
 #sub-menu > li {
-  padding: 14px 20px;
+  padding: 5px 5px;
   border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 
 #sub-menu > li >  a {
-  font-size:0.85rem;
+  font-size:0.8rem;
   color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
@@ -85,6 +85,7 @@ ul, li {
 }
 
 #host-link >  a {
+    font-size: 0.8rem;
     color: rgba(15, 15, 15, 0.637);
     text-decoration: none;
   }
