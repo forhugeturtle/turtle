@@ -1,0 +1,104 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/*body 초기화*/
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;  
+}
+
+h1 {
+  margin: 0.5em 0 0.5em 0;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: #051937;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#main-menu > li {
+  float: left;
+  position: relative;
+}
+
+#main-menu > li > a {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.85);
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  display: block;
+  padding: 14px 36px;
+  border-right: 1px solid rgba(99, 99, 99, 0.486);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+#main-menu > li:nth-child(1) > a {
+  border-left: 1px solid rgb(99, 99, 99, 0.486);
+}
+
+#sub-menu {
+  position: absolute;
+  background: #475470;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.15s ease-in;
+}
+
+#sub-menu > li {
+  padding: 14px 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+#sub-menu > li >  a {
+  font-size:0.85rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+
+#main-menu > li:hover #sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#sub-menu > li >  a:hover {
+ text-decoration: underline;
+}
+
+#host-link {
+    color:rgba(15, 15, 15, 0.637)
+}
+
+#host-link >  a {
+    color: rgba(15, 15, 15, 0.637);
+    text-decoration: none;
+  }
+
+#host-link > a:hover {
+ text-decoration: underline;
+}
+  
+section {
+  column-width: 15em;
+  background: #dadadf;
+  padding: 2em 12em;
+}
+
+.video-container {position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow: hidden;}
+
+.video-container iframe,.video-container object,.video-container embed {position:absolute;top: 0;left:0;width:100%;height:100%;}
