@@ -78,7 +78,6 @@ ul, li {
     padding: 10px 20px;
     border: 1px solid rgba(61, 61, 61, 0.486);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-    z-index: 1;
   }
 
 /* sub-menu 감춤 */
@@ -87,6 +86,7 @@ ul, li {
     opacity: 0;
     visibility: hidden;
     transition: all 0.15s ease-in;
+    z-index: 1;
   }
 
 /* main-menu 리스트에 마우스 갖다대면 sub-menu 보이게 함 */
@@ -100,7 +100,6 @@ ul, li {
     padding: 5px 10px;
     background: #475470;
     border-bottom: 1px solid rgba(0,0,0,0.15);
-    z-index:2;
   }
 
   #sub-menu > li >  a {
