@@ -91,7 +91,7 @@ ul, li {
 
 /* main-menu 리스트에 마우스 갖다대면 sub-menu 보이게 함 */
   #main-menu > li:hover #sub-menu {
-    opacity: 1;
+    opacity: 10;
     visibility: visible;
   }
 
