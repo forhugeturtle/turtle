@@ -11,6 +11,7 @@ body {
     align-items: center;
     overflow-x: hidden;  
   }
+
 header {
     width:100%;
     text-align:center;
@@ -20,6 +21,7 @@ header {
   h1 {
     margin: 0.5em 0 0.3em 0;
     font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.8rem;
   }
 
   #host-link {
@@ -57,7 +59,6 @@ ul, li {
   #main-menu > li {
     float: left;
     position: relative;
-    z-index: 1;
   }
 
 /* 대시보드 색깔 지정 */
@@ -77,6 +78,7 @@ ul, li {
     padding: 10px 20px;
     border: 1px solid rgba(61, 61, 61, 0.486);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    z-index: 1;
   }
 
 /* sub-menu 감춤 */
